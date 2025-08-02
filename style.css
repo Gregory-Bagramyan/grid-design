@@ -26,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
 }
 
 main{
@@ -43,16 +43,21 @@ main{
     justify-self: center;
     margin-bottom: 20px;
     font-weight: 100;
+    color: var(--Grey-500);
+    
 }
 
 .intro h1 strong{
     font-weight: bold;
+    font-weight:600;
 }
 
 
 .intro p {
-    width:50vw;
+    width:45vw;
     justify-self: center;
+    color: var(--Grey-500);
+    font-size: 14px;
 }
 
 .grid{
@@ -61,6 +66,12 @@ main{
     grid-template-rows: repeat(4, 1fr);
     gap:20px;
     width:80vw;
+}
+
+h2{
+    color: var(--Grey-500);
+    font-size:15px;
+    font-weight:600;
 }
 
 h2, p{
@@ -84,6 +95,7 @@ img{
 .item p{
     color:var(--Grey-400);
     font-size:12px;
+    font-weight:200;
 }
 
 .item1{
